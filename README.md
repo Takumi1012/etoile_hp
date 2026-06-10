@@ -16,15 +16,13 @@ HTML / CSS / JavaScript のみで構築された静的サイトで、GitHub Page
 
 ## GitHub Pages での公開手順
 
-1. GitHub で新しいリポジトリを作成（例: `etoile-volleyball`、Public）
-2. このフォルダをプッシュ:
-   ```bash
-   git remote add origin https://github.com/<ユーザー名>/etoile-volleyball.git
-   git push -u origin main
-   ```
-3. リポジトリの **Settings → Pages** を開き、
+リポジトリ: https://github.com/Takumi1012/etoile_hp
+
+1. リポジトリの **Settings → Pages** を開き、
    **Source: Deploy from a branch / Branch: main / フォルダ: (root)** を選択して保存
-4. 数分後、`https://<ユーザー名>.github.io/etoile-volleyball/` で公開されます
+2. 数分後、`https://takumi1012.github.io/etoile_hp/` で公開されます
+
+更新は `git push` するだけで数分後に自動反映されます。
 
 独自ドメインを使う場合は Settings → Pages → Custom domain で設定できます。
 
